@@ -5,16 +5,19 @@ body{
 }
 ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     width:600px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     size: 30px;
 }
 #header{
     background-color:#FFE9AD ;
-    height: 60px;
+   
     display: flex; 
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:  30px;
     font-size: 20px;
    
     
@@ -28,7 +31,7 @@ ul{
 }
 #part2{
       background-image: url(bgimg2.jpeg);
-      height: 800px;
+    
     
       background-repeat: no-repeat;
       background-size: cover;
@@ -59,7 +62,7 @@ ul{
 #part21 ,#part22, #part23, #part24, #part25, #part26, #part27, #part28{
     border: 1px solid black;
     padding: 10px;
-    height:350px;
+    height:360px;
     width:200px;
     box-shadow: 2px 2px green;
     border-radius: 5px;
@@ -68,7 +71,7 @@ ul{
     background-color: darkgreen;
     display: flex;
     flex-wrap: wrap;
-    height: 800px;
+   
     padding: 15px;
 }
 #bgvideo{
@@ -77,10 +80,11 @@ ul{
     bottom: 0;
     width: 500px;
     height: 800px;
+    
 }
 #part4{
     background-image: url(bg4image.jpg);
-    height: 800px;
+   
      display: flex;
      flex-wrap: wrap;
       background-repeat: no-repeat;
@@ -95,8 +99,6 @@ ul{
 #part4_2{
     padding: 50px;
 }
-#1:hover{
-    width: 230px;
-}
+
 
 
